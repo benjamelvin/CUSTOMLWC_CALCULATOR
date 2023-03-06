@@ -1,0 +1,26 @@
+<template>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" value={result} readonly />
+    </div>
+    <div class="buttons">
+      <button class="num" value="7" onclick={handleClick}>7</button>
+      <button class="num" value="8" onclick={handleClick}>8</button>
+      <button class="num" value="9" onclick={handleClick}>9</button>
+      <button class="op" value="+" onclick={handleClick}>+</button>
+      <button class="num" value="4" onclick={handleClick}>4</button>
+      <button class="num" value="5" onclick={handleClick}>5</button>
+      <button class="num" value="6" onclick={handleClick}>6</button>
+      <button class="op" value="-" onclick={handleClick}>-</button>
+      <button class="num" value="1" onclick={handleClick}>1</button>
+      <button class="num" value="2" onclick={handleClick}>2</button>
+      <button class="num" value="3" onclick={handleClick}>3</button>
+      <button class="op" value="*" onclick={handleClick}>*</button>
+      <button class="num" value="0" onclick={handleClick}>0</button>
+      <button class="num" value="." onclick={handleClick}>.</button>
+      <button class="clear" onclick={clear}>C</button>
+      <button class="op" value="/" onclick={handleClick}>/</button>
+      <button class="equals" onclick={calculate}>=</button>
+    </div>
+  </div>
+</template>
